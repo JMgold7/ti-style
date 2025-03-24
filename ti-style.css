@@ -1,14 +1,17 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSans.css');
+@import url('https://cdn.jsdelivr.net/gh/webfontworld/sandbox/SpoqaHanSansNeo.css');
 
 /* 기본 스타일 */
 body {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #222;
-  background-color: #fff;
+  font-family: 'Spoqa Han Sans Neo', 'Noto Sans KR', sans-serif;
+  font-size: 15.5px;
+  line-height: 1.8;
+  letter-spacing: 0px;
+  color: #333;
+  background-color: #fdfdfd;
+  max-width: 720px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -17,61 +20,67 @@ h1, h2, h3 {
   font-family: 'GmarketSans', sans-serif;
 }
 h1 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
-  margin-bottom: 25px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 6px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  letter-spacing: -0.2px;
 }
 h2 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 6px;
-  margin: 30px 0 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* 본문 */
 p {
-  margin-bottom: 16px;
-  font-size: 16px;
+  margin-bottom: 14px;
 }
-
-/* 리스트 */
 ul {
   line-height: 1.8;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   padding-left: 20px;
 }
 
 /* 인용문 */
 blockquote {
-  border-left: 4px solid #ccc;
-  padding-left: 15px;
+  background: #f9f9f9;
+  border-left: 4px solid #90caf9;
+  padding: 12px 16px;
+  color: #444;
   margin: 20px 0;
-  color: #333;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* 메모 박스 */
 .memo-box {
-  background: #d3d3d3;
-  padding: 15px;
+  background: #f0f8ff;
+  padding: 14px;
   margin: 20px 0;
   border-radius: 6px;
+  border-left: 4px solid #64b5f6;
 }
 
 /* 표 */
 table {
   width: 100%;
-  min-width: 300px;
-  max-width: 100%;
   border-collapse: collapse;
+  font-size: 14.5px;
   margin: 20px 0;
-  font-size: 16px;
 }
 thead {
-  background: #f2f2f2;
+  background: #f5f5f5;
 }
 th, td {
   border: 1px solid #ccc;
@@ -89,16 +98,16 @@ img {
 
 /* 링크 */
 a {
-  color: #ee750b;
+  color: #1e88e5;
   text-decoration: underline;
 }
 a:hover {
-  color: #c45f08;
+  color: #1565c0;
 }
 
 /* 버튼 */
 .btn {
-  background-color: #ee750b;
+  background-color: #1e88e5;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -107,16 +116,16 @@ a:hover {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #c45f08;
+  background-color: #1565c0;
 }
 
 /* FAQ 영역 */
 details {
   border: 1px solid #ddd;
   padding: 12px;
-  border-radius: 4px;
+  border-radius: 5px;
   background: #f9f9f9;
-  margin: 20px 0;
+  margin: 18px 0;
 }
 details summary {
   font-weight: bold;
@@ -130,5 +139,5 @@ pre {
   overflow-x: auto;
   font-size: 14px;
   border-radius: 6px;
-  border-left: 4px solid #ee750b;
+  border-left: 4px solid #1e88e5;
 }
