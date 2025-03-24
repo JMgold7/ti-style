@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSans.css');
+
+/* 기본 스타일 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #222;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* 제목 */
+h1, h2, h3 {
+  font-family: 'GmarketSans', sans-serif;
+}
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+  margin: 30px 0 20px;
+}
+
+/* 본문 */
+p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+/* 리스트 */
+ul {
+  line-height: 1.8;
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+/* 인용문 */
+blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 15px;
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+/* 메모 박스 */
+.memo-box {
+  background: #d3d3d3;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+/* 표 */
+table {
+  width: 100%;
+  min-width: 300px;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+}
+thead {
+  background: #f2f2f2;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* 반응형 이미지 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+/* 링크 */
+a {
+  color: #ee750b;
+  text-decoration: underline;
+}
+a:hover {
+  color: #c45f08;
+}
+
+/* 버튼 */
+.btn {
+  background-color: #ee750b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #c45f08;
+}
+
+/* FAQ 영역 */
+details {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 4px;
+  background: #f9f9f9;
+  margin: 20px 0;
+}
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 코드 블록 */
+pre {
+  background: #f4f4f4;
+  padding: 15px;
+  overflow-x: auto;
+  font-size: 14px;
+  border-radius: 6px;
+  border-left: 4px solid #ee750b;
+}
